@@ -1,0 +1,1484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Author Feri Hidayatulloh -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodetempManga - Baca Manga Subtitle Bahasa Indonesia</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" type='text/javascript'></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/responsive.codetemp.css">
+  <link rel="stylesheet" href="assets/css/font/font-custom.css">
+  <link rel="stylesheet" href="assets/css/font/all.css">
+  <link rel="stylesheet" href="assets/css/codetemp.css">
+  <link rel="stylesheet" href="assets/css/codetemp.dark.css">
+  <script crossorigin="anonymous" src='https://kit.fontawesome.com/a04bdae87b.js'></script>
+  <script src="assets/js/codetemp.js"></script>
+</head>
+</head>
+
+<body>
+    <header id="head">
+        <div class="th section" id="header">
+            <div class="widget Header" data-version="2" id="Header1">
+                <div class="centernav">
+                    <div class="dropdown drop-side">
+                        <a class="dropbtn" onclick="myDrop()" style="font-size: 35px;width:auto;height:auto;line-height:30px;">&#9729;
+                        </a>
+                    </div>
+                    <div class="header-widget">
+                        <a class="header-image-wrapper" href="/">
+                            <img id="brandlogo" alt="CodetempManga" data-original-height="67" data-original-width="228" src="assets/img/bannermangaLightMode.png">
+                        </a>
+                    </div>
+                    <div class="searchx">
+                        <form action="" id="form" method="get">
+                            <div class="input-group">
+                                <input class="form-control" type="text" placeholder="Enter search manga..." aria-describedby="button-search" />
+                                <button class="btn btn-primary" id="button-search" type="button"><i class='fa fa-search'></i></button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="theme">
+                        <label class="switch">
+                            <input id="dark" name="toggle-flip" type="checkbox" value="" onChange="ChangeBG(this);">
+                            <span class="geser round"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="menu-atas" style="margin-bottom:15px">
+        <div class="section" id='Menu Atas'>
+            <div class="widget LinkList" data-version="2" id="LinkList1">
+                <div class="menu-drop" id="menu" itemprop="mainEntity" itemscope="menu atas">
+                    <div class="centernav">
+                        <ul class="menu" id="menu-menu">
+                            <li class="menu-item">
+                                <a class="linku" href="index.html"><i class="fas fa-home"></i> Home</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="linku" href="manga-project.html"><i class="fas fa-clipboard-list"></i> Project Ongoing</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="linku" href="manga-list.html"><i class="fas fa-list-ul"></i> List Manga</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="linku" href="manga-genre.html"><i class="fas fa-stream"></i> Genre</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="linku" href="manga-about.html"><i class="fas fa-info-circle"></i> About</a>
+                            </li>
+    
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fitur-top">
+        <div class="section" id="fitur-top">
+          <div class="widget HTML" data-version="2" id="HTML4">
+            <h3 class="title">
+              Pengumuman
+            </h3>
+            <div class="widget-content">
+              <div class="annx">
+                <marquee onmouseover="this.stop()" onmouseout="this.start()">
+                  This is the content for the website announcement, hover over here :) - CodetempManga
+                </marquee>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="itemexpand" id="outer-wrapper">
+        <div id="content-wrapper">
+            <div id="main-wrapper">
+                <div id="content-wrap">
+
+                    <div class="latest section section" id="Latest Blog">
+                        <div class="widget HTML" data-version="2" id="HTML1">
+                            <div class="widget-content">
+
+                                <article style="margin: 10px; margin-top:10px;" class="">
+                                    <!-- Post header-->
+
+                                    <header class="mb-4">
+                                        <!-- Post title-->
+                                        <br>
+                                        <nav>
+                                            <ol class="breadcrumb">
+                                                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                                                <li class="breadcrumb-item active" aria-current="page">Blog Post</li>
+                                            </ol>
+                                        </nav>
+                                        <h1 style="font-size: 27px;" class="fw-bolder mb-1">Welcome to Blog Post! Lorem, ipsum dolor sit amet consectetur adipisicing elit</h1>
+                                        <!-- Post meta content-->
+                                        <div class="text-muted fst-italic mb-2">Posted on January 1, 2021 by Codetemp</div>
+                                        <!-- Post categories-->
+                                        <a class="badge bg-secondary text-decoration-none link-light" href="#!">Manga</a>
+                                    </header>
+                                    <!-- Preview image figure-->
+                                    <figure class="mb-4"><img class="img-fluid rounded" src="assets/img/blog-o1.jpg" alt="..." /></figure>
+                                    <!-- Post content-->
+                                    <section class="mb-5" style="font-size: 15px;">
+
+                                        <p class=" mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In unde fuga obcaecati, minima quia, libero ipsum cupiditate similique vero nesciunt, harum molestiae dolorem voluptas recusandae earum! Dolor alias aliquid quos?</p>
+                                        <p>You can use the mark tag to <mark>highlight</mark> text.</p>
+                                        <p><del>This line of text is meant to be treated as deleted text.</del></p>
+                                        <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+                                        <p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
+                                        <p><u>This line of text will render as underlined.</u></p>
+                                        <p><small>This line of text is meant to be treated as fine print.</small></p>
+                                        <p><strong>This line rendered as bold text.</strong></p>
+                                        <p><em>This line rendered as italicized text.</em></p>
+                                        <p class=" mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore officia voluptate quo minus aut repellat itaque quidem, dolorum mollitia optio quos perferendis ipsum reiciendis. Assumenda error alias aliquam repellat labore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis a rerum assumenda incidunt exercitationem veniam suscipit quo, consequuntur architecto rem ex, libero velit eos saepe tempore adipisci maxime? Quam, praesentium.</p>
+                                        <figure>
+                                            <blockquote class="blockquote">
+                                                <p>A well-known quote, contained in a blockquote element.</p>
+                                            </blockquote>
+                                            <figcaption class="blockquote-footer">
+                                                Someone famous in <cite title="Source Title">Source Title</cite>
+                                            </figcaption>
+                                        </figure>
+                                        <table>
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">#</th>
+                                                        <th scope="col">First</th>
+                                                        <th scope="col">Last</th>
+                                                        <th scope="col">Handle</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">1</th>
+                                                        <td>Feri</td>
+                                                        <td>Hidayat</td>
+                                                        <td>@asjkad</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">2</th>
+                                                        <td>Jacob</td>
+                                                        <td>Thornton</td>
+                                                        <td>@hjahjd</td>
+                                                    </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </table>
+                                        <p class=" mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis dolores illo, provident commodi cupiditate voluptatibus non, animi alias magnam ex, praesentium sed minus. Facilis tempore sit vero laudantium nulla minima!</p>
+                                        <h2 class="fw-bolder mb-4 mt-5">I have odd cosmic thoughts every day</h2>
+                                        <p class=" mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero quia aut inventore dolorum quas unde fugiat corrupti est quis aspernatur fugit, magni omnis natus iusto eaque laborum asperiores modi sint.</p>
+                                        <p class=" mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit rerum officiis, in fuga dicta temporibus commodi reiciendis consequatur, laudantium atque doloremque delectus. Harum maxime et pariatur obcaecati rerum delectus cum.lo Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores odio, vel enim in esse optio quia deleniti expedita eos, adipisci ab cum quidem odit cumque suscipit sapiente neque rerum nam!</p>
+                                    </section>
+                                    <div class="socialshare">
+                                        <a>Share :</a>
+                                        <a class="fb" href="//www.facebook.com/sharer.php?u=#" rel="nofollow" target="_blank" title="Share ke Facebook"><span class="fa fa-facebook" aria-hidden="true"></span> Facebook</a>
+                                        <a class="twit" href="//twitter.com/share?url=#" rel="nofollow" target="_blank" title="Share ke Twitter">
+                                            <span class="fa fa-twitter" aria-hidden="true"></span> Twitter</a>
+                                        <a class="wa" href="whatsapp://send?text=Lorem ipsum dolor sit amet consectetur adipisicing elit.%20%2D%20#" rel="nofollow" target="_blank" title="Share ke Whatsapp"><span class="fa fa-whatsapp" aria-hidden="true"></span> Whatsapp</a>
+                                        <a class="pint" href="//pinterest.com/pin/create/button/?url=Lorem ipsum dolor sit amet consectetur adipisicing elit.%20%2D%20#" rel="nofollow" target="_blank" title="Share ke Pinterest"><span class="fa fa-pinterest" aria-hidden="true"></span> Pinterest</a>
+                                    </div>
+                                    <div class="kata-kunci">
+                                        <strong>Keywords: </strong> baca Lorem ipsum dolor sit amet consectetur adipisicing elit., Lorem ipsum dolor sit amet consectetur adipisicing elit. bahasa indonesia, Lorem ipsum dolor sit amet consectetur adipisicing elit. indo, download Lorem ipsum dolor sit amet consectetur adipisicing elit. indo, baca online Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </div>
+                                </article>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="bixbox">
+                        <h2 class="heading">Komentar <span class="disqus-comment-count" data-disqus-identifier="kumapoi">
+                            </span></h2>
+                        <section class="comments" data-num-comments="0" id="comments" style="display: block;">
+
+                        </section>
+                    </div>
+                </div>
+            </div>
+          <div id="widget-kanan">
+            <div class="filterCont">
+                <div class="search-title">
+                    <h2>Filter Search Beta</h2>
+                </div>
+                <form action="/search/label/" class="filter-box " method="get">
+                    <div class="filter search section" id="search widget" name="pencarian">
+                        <div class="widget Label" data-version="2" id="Label6">
+                            <button class="dropdown-toggle" data-toggle="dropdown" type="button">
+                                Genre
+                                <span id="filtercount">All</span>
+                                <i aria-hidden="true" class="fa fa-angle-down"></i>
+                            </button>
+                            <div class="widget-content cloud-label-widget-content">
+                                <ul class="dropdown-list gss">
+                                    <li>
+                                        <input id="Genre-Action" name="label" type="checkbox" value="Action">
+                                        <label for="Genre-Action">Action</label>
+                                    </li>
+                                    <li>
+                                        <input id="Genre-Adventure" name="label" type="checkbox" value="Adventure">
+                                        <label for="Genre-Adventure">Adventure</label>
+                                    </li>
+                                    <li>
+                                        <input id="Genre-Comedy" name="label" type="checkbox" value="Comedy">
+                                        <label for="Genre-Comedy">Comedy</label>
+                                    </li>
+                                    <li>
+                                        <input id="Genre-Demons" name="label" type="checkbox" value="Demons">
+                                        <label for="Genre-Demons">Demons</label>
+                                    </li>
+                                    <li>
+                                        <input id="Genre-Drama" name="label" type="checkbox" value="Drama">
+                                        <label for="Genre-Drama">Drama</label>
+                                    </li>
+                                    <li>
+                                        <input id="Genre-Fantasy" name="label" type="checkbox" value="Fantasy">
+                                        <label for="Genre-Fantasy">Fantasy</label>
+                                    </li>
+                                    <li>
+                                        <input id="Genre-Harem" name="label" type="checkbox" value="Harem">
+                                        <label for="Genre-Harem">Harem</label>
+                                    </li>
+                                    <li>
+                                        <input id="Genre-Historical" name="label" type="checkbox" value="Historical">
+                                        <label for="Genre-Historical">Historical</label>
+                                    </li>
+                                    <li>
+                                        <input id="Genre-Isekai" name="label" type="checkbox" value="Isekai">
+                                        <label for="Genre-Isekai">Isekai</label>
+                                    </li>
+                                    <li>
+                                        <input id="Genre-Magic" name="label" type="checkbox" value="Magic">
+                                        <label for="Genre-Magic">Magic</label>
+                                    </li>
+                                    <li>
+                                        <input id="Genre-Martial Arts" name="label" type="checkbox" value="Martial Arts">
+                                        <label for="Genre-Martial Arts">Martial Arts</label>
+                                    </li>
+                                    <li>
+                                        <input id="Genre-Psychological" name="label" type="checkbox" value="Psychological">
+                                        <label for="Genre-Psychological">Psychological</label>
+                                    </li>
+                                    <li>
+                                        <input id="Genre-Romance" name="label" type="checkbox" value="Romance">
+                                        <label for="Genre-Romance">Romance</label>
+                                    </li>
+                                    <li>
+                                        <input id="Genre-School" name="label" type="checkbox" value="School">
+                                        <label for="Genre-School">School</label>
+                                    </li>
+                                    <li>
+                                        <input id="Genre-School Life" name="label" type="checkbox" value="School Life">
+                                        <label for="Genre-School Life">School Life</label>
+                                    </li>
+                                    <li>
+                                        <input id="Genre-Seinen" name="label" type="checkbox" value="Seinen">
+                                        <label for="Genre-Seinen">Seinen</label>
+                                    </li>
+                                    <li>
+                                        <input id="Genre-Shounen" name="label" type="checkbox" value="Shounen">
+                                        <label for="Genre-Shounen">Shounen</label>
+                                    </li>
+                                    <li>
+                                        <input id="Genre-Slice of Life" name="label" type="checkbox" value="Slice of Life">
+                                        <label for="Genre-Slice of Life">Slice of Life</label>
+                                    </li>
+                                    <li>
+                                        <input id="Genre-Supernatural" name="label" type="checkbox" value="Supernatural">
+                                        <label for="Genre-Supernatural">Supernatural</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="widget Label" data-version="2" id="Label7">
+                            <button class="dropdown-toggle" data-toggle="dropdown" type="button">
+                                Status
+                                <span id="filtercount">All</span>
+                                <i aria-hidden="true" class="fa fa-angle-down"></i>
+                            </button>
+                            <div class="widget-content cloud-label-widget-content">
+                                <ul class="dropdown-list filtRadio">
+                                    <li>
+                                        <input id="Season-Completed" name="label" type="radio" value="Completed">
+                                        <label for="Season-Completed">Completed</label>
+                                    </li>
+                                    <li>
+                                        <input id="Season-Hiatus" name="label" type="radio" value="Hiatus">
+                                        <label for="Season-Hiatus">Hiatus</label>
+                                    </li>
+                                    <li>
+                                        <input id="Season-Ongoing" name="label" type="radio" value="Ongoing">
+                                        <label for="Season-Ongoing">Ongoing</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="widget Label" data-version="2" id="Label8">
+                            <button class="dropdown-toggle" data-toggle="dropdown" type="button">
+                                Type
+                                <span id="filtercount">All</span>
+                                <i aria-hidden="true" class="fa fa-angle-down"></i>
+                            </button>
+                            <div class="widget-content cloud-label-widget-content">
+                                <ul class="dropdown-list filtRadio">
+                                    <li>
+                                        <input id="Studio-Komik" name="label" type="radio" value="Komik">
+                                        <label for="Studio-Komik">Komik</label>
+                                    </li>
+                                    <li>
+                                        <input id="Studio-Light Novel" name="label" type="radio" value="Light Novel">
+                                        <label for="Studio-Light Novel">Light Novel</label>
+                                    </li>
+                                    <li>
+                                        <input id="Studio-Manga" name="label" type="radio" value="Manga">
+                                        <label for="Studio-Manga">Manga</label>
+                                    </li>
+                                    <li>
+                                        <input id="Studio-Manhua" name="label" type="radio" value="Manhua">
+                                        <label for="Studio-Manhua">Manhua</label>
+                                    </li>
+                                    <li>
+                                        <input id="Studio-Manhwa" name="label" type="radio" value="Manhwa">
+                                        <label for="Studio-Manhwa">Manhwa</label>
+                                    </li>
+                                    <li>
+                                        <input id="Studio-Web Novel" name="label" type="radio" value="Web Novel">
+                                        <label for="Studio-Web Novel">Web Novel</label>
+                                    </li>
+                                    <li>
+                                        <input id="Studio-Webtoon" name="label" type="radio" value="Webtoon">
+                                        <label for="Studio-Webtoon">Webtoon</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filtSubmit"><button class="btnFilter" type="submit">Search</button></div>
+                </form>
+            </div>
+            <div id="re-spoiler">
+                <h2 class="judul-pop">Manga Popular</h2>
+                <ul id="tabs">
+                    <li id="current"><a href="#" name="tab1">Bulanan</a></li>
+                    <li><a href="#" name="tab2">Tahunan</a></li>
+                    <li><a href="#" name="tab3">All Time</a></li>
+                </ul>
+                <div id="content">
+                    <div id="tab1">
+                        <div class="sidebar.popular section" id="pop1" name="pop1">
+                            <div class="widget PopularPosts" data-version="2" id="PopularPosts1">
+                                <h3 class="title">
+                                    Popular Post Bulanan
+                                </h3>
+                                <div class="widget-content popular-posts">
+                                    <ul>
+                                        <li>
+                                            <div class="item-content">
+                                                <a href="manga-detail.html">
+                                                    <img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." class="post-thumbnail" height="" src="assets/img/cover/manga-o1.jpg" title="Lorem ipsum dolor sit amet consectetur adipisicing elit." width="">
+                                                </a>
+                                                <div style="overflow:hidden;">
+                                                    <div class="item-title"><a href="manga-detail.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                                    </div>
+                                                    <div class="item-label">
+                                                        <span class="tren-tag"><b>Genre:</b>
+                                                            <a href="genre.html" rel="tag">
+                                                                Comedy,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Romance,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Shounen,
+                                                            </a>
+                                                        </span>
+                                                        <div class="rt-block">
+                                                            <div class="rating-b">
+                                                                <div class="rtp">
+                                                                    <div class="rtb">
+                                                                        <style>
+                                                                            .rtb span[href$="manga-detail.html"]:after {
+                                                                                width: 9.99% !important
+                                                                            }
+                                                                        </style>
+                                                                        <span href="manga-detail.html"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <span class="ratenya">9.99
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="clear: both;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="item-content">
+                                                <a href="manga-detail.html">
+                                                    <img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." class="post-thumbnail" height="" src="assets/img/cover/manga-o1.jpg" title="Lorem ipsum dolor sit amet consectetur adipisicing elit." width="">
+                                                </a>
+                                                <div style="overflow:hidden;">
+                                                    <div class="item-title"><a href="manga-detail.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                                    </div>
+                                                    <div class="item-label">
+                                                        <span class="tren-tag"><b>Genre:</b>
+                                                            <a href="genre.html" rel="tag">
+                                                                Comedy,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Romance,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Shounen,
+                                                            </a>
+                                                        </span>
+                                                        <div class="rt-block">
+                                                            <div class="rating-b">
+                                                                <div class="rtp">
+                                                                    <div class="rtb">
+                                                                        <style>
+                                                                            .rtb span[href$="manga-detail.html"]:after {
+                                                                                width: 9.99% !important
+                                                                            }
+                                                                        </style>
+                                                                        <span href="manga-detail.html"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <span class="ratenya">9.99
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="clear: both;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="item-content">
+                                                <a href="manga-detail.html">
+                                                    <img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." class="post-thumbnail" height="" src="assets/img/cover/manga-o1.jpg" title="Lorem ipsum dolor sit amet consectetur adipisicing elit." width="">
+                                                </a>
+                                                <div style="overflow:hidden;">
+                                                    <div class="item-title"><a href="manga-detail.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                                    </div>
+                                                    <div class="item-label">
+                                                        <span class="tren-tag"><b>Genre:</b>
+                                                            <a href="genre.html" rel="tag">
+                                                                Comedy,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Romance,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Shounen,
+                                                            </a>
+                                                        </span>
+                                                        <div class="rt-block">
+                                                            <div class="rating-b">
+                                                                <div class="rtp">
+                                                                    <div class="rtb">
+                                                                        <style>
+                                                                            .rtb span[href$="manga-detail.html"]:after {
+                                                                                width: 9.99% !important
+                                                                            }
+                                                                        </style>
+                                                                        <span href="manga-detail.html"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <span class="ratenya">9.99
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="clear: both;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="item-content">
+                                                <a href="manga-detail.html">
+                                                    <img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." class="post-thumbnail" height="" src="assets/img/cover/manga-o1.jpg" title="Lorem ipsum dolor sit amet consectetur adipisicing elit." width="">
+                                                </a>
+                                                <div style="overflow:hidden;">
+                                                    <div class="item-title"><a href="manga-detail.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                                    </div>
+                                                    <div class="item-label">
+                                                        <span class="tren-tag"><b>Genre:</b>
+                                                            <a href="genre.html" rel="tag">
+                                                                Comedy,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Romance,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Shounen,
+                                                            </a>
+                                                        </span>
+                                                        <div class="rt-block">
+                                                            <div class="rating-b">
+                                                                <div class="rtp">
+                                                                    <div class="rtb">
+                                                                        <style>
+                                                                            .rtb span[href$="manga-detail.html"]:after {
+                                                                                width: 9.99% !important
+                                                                            }
+                                                                        </style>
+                                                                        <span href="manga-detail.html"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <span class="ratenya">9.99
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="clear: both;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="item-content">
+                                                <a href="manga-detail.html">
+                                                    <img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." class="post-thumbnail" height="" src="assets/img/cover/manga-o1.jpg" title="Lorem ipsum dolor sit amet consectetur adipisicing elit." width="">
+                                                </a>
+                                                <div style="overflow:hidden;">
+                                                    <div class="item-title"><a href="manga-detail.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                                    </div>
+                                                    <div class="item-label">
+                                                        <span class="tren-tag"><b>Genre:</b>
+                                                            <a href="genre.html" rel="tag">
+                                                                Comedy,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Romance,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Shounen,
+                                                            </a>
+                                                        </span>
+                                                        <div class="rt-block">
+                                                            <div class="rating-b">
+                                                                <div class="rtp">
+                                                                    <div class="rtb">
+                                                                        <style>
+                                                                            .rtb span[href$="manga-detail.html"]:after {
+                                                                                width: 9.99% !important
+                                                                            }
+                                                                        </style>
+                                                                        <span href="manga-detail.html"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <span class="ratenya">9.99
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="clear: both;"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab2" style="display: none;">
+                        <div class="sidebar.popular section" id="pop2" name="pop2">
+                            <div class="widget PopularPosts" data-version="2" id="PopularPosts2">
+                                <h3 class="title">
+                                    Popular Post Tahunan
+                                </h3>
+                                <div class="widget-content popular-posts">
+                                    <ul>
+                                        <li>
+                                            <div class="item-content">
+                                                <a href="manga-detail.html">
+                                                    <img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." class="post-thumbnail" height="" src="assets/img/cover/manga-o1.jpg" title="Lorem ipsum dolor sit amet consectetur adipisicing elit." width="">
+                                                </a>
+                                                <div style="overflow:hidden;">
+                                                    <div class="item-title"><a href="manga-detail.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                                    </div>
+                                                    <div class="item-label">
+                                                        <span class="tren-tag"><b>Genre:</b>
+                                                            <a href="genre.html" rel="tag">
+                                                                Comedy,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Romance,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Shounen,
+                                                            </a>
+                                                        </span>
+                                                        <div class="rt-block">
+                                                            <div class="rating-b">
+                                                                <div class="rtp">
+                                                                    <div class="rtb">
+                                                                        <style>
+                                                                            .rtb span[href$="manga-detail.html"]:after {
+                                                                                width: 9.99% !important
+                                                                            }
+                                                                        </style>
+                                                                        <span href="manga-detail.html"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <span class="ratenya">9.99
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="clear: both;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="item-content">
+                                                <a href="manga-detail.html">
+                                                    <img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." class="post-thumbnail" height="" src="assets/img/cover/manga-o1.jpg" title="Lorem ipsum dolor sit amet consectetur adipisicing elit." width="">
+                                                </a>
+                                                <div style="overflow:hidden;">
+                                                    <div class="item-title"><a href="manga-detail.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                                    </div>
+                                                    <div class="item-label">
+                                                        <span class="tren-tag"><b>Genre:</b>
+                                                            <a href="genre.html" rel="tag">
+                                                                Comedy,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Romance,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Shounen,
+                                                            </a>
+                                                        </span>
+                                                        <div class="rt-block">
+                                                            <div class="rating-b">
+                                                                <div class="rtp">
+                                                                    <div class="rtb">
+                                                                        <style>
+                                                                            .rtb span[href$="manga-detail.html"]:after {
+                                                                                width: 9.99% !important
+                                                                            }
+                                                                        </style>
+                                                                        <span href="manga-detail.html"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <span class="ratenya">9.99
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="clear: both;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="item-content">
+                                                <a href="manga-detail.html">
+                                                    <img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." class="post-thumbnail" height="" src="assets/img/cover/manga-o1.jpg" title="Lorem ipsum dolor sit amet consectetur adipisicing elit." width="">
+                                                </a>
+                                                <div style="overflow:hidden;">
+                                                    <div class="item-title"><a href="manga-detail.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                                    </div>
+                                                    <div class="item-label">
+                                                        <span class="tren-tag"><b>Genre:</b>
+                                                            <a href="genre.html" rel="tag">
+                                                                Comedy,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Romance,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Shounen,
+                                                            </a>
+                                                        </span>
+                                                        <div class="rt-block">
+                                                            <div class="rating-b">
+                                                                <div class="rtp">
+                                                                    <div class="rtb">
+                                                                        <style>
+                                                                            .rtb span[href$="manga-detail.html"]:after {
+                                                                                width: 9.99% !important
+                                                                            }
+                                                                        </style>
+                                                                        <span href="manga-detail.html"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <span class="ratenya">9.99
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="clear: both;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="item-content">
+                                                <a href="manga-detail.html">
+                                                    <img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." class="post-thumbnail" height="" src="assets/img/cover/manga-o1.jpg" title="Lorem ipsum dolor sit amet consectetur adipisicing elit." width="">
+                                                </a>
+                                                <div style="overflow:hidden;">
+                                                    <div class="item-title"><a href="manga-detail.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                                    </div>
+                                                    <div class="item-label">
+                                                        <span class="tren-tag"><b>Genre:</b>
+                                                            <a href="genre.html" rel="tag">
+                                                                Comedy,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Romance,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Shounen,
+                                                            </a>
+                                                        </span>
+                                                        <div class="rt-block">
+                                                            <div class="rating-b">
+                                                                <div class="rtp">
+                                                                    <div class="rtb">
+                                                                        <style>
+                                                                            .rtb span[href$="manga-detail.html"]:after {
+                                                                                width: 9.99% !important
+                                                                            }
+                                                                        </style>
+                                                                        <span href="manga-detail.html"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <span class="ratenya">9.99
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="clear: both;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="item-content">
+                                                <a href="manga-detail.html">
+                                                    <img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." class="post-thumbnail" height="" src="assets/img/cover/manga-o1.jpg" title="Lorem ipsum dolor sit amet consectetur adipisicing elit." width="">
+                                                </a>
+                                                <div style="overflow:hidden;">
+                                                    <div class="item-title"><a href="manga-detail.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                                    </div>
+                                                    <div class="item-label">
+                                                        <span class="tren-tag"><b>Genre:</b>
+                                                            <a href="genre.html" rel="tag">
+                                                                Comedy,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Romance,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Shounen,
+                                                            </a>
+                                                        </span>
+                                                        <div class="rt-block">
+                                                            <div class="rating-b">
+                                                                <div class="rtp">
+                                                                    <div class="rtb">
+                                                                        <style>
+                                                                            .rtb span[href$="manga-detail.html"]:after {
+                                                                                width: 9.99% !important
+                                                                            }
+                                                                        </style>
+                                                                        <span href="manga-detail.html"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <span class="ratenya">9.99
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="clear: both;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="item-content">
+                                                <a href="manga-detail.html">
+                                                    <img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." class="post-thumbnail" height="" src="assets/img/cover/manga-o1.jpg" title="Lorem ipsum dolor sit amet consectetur adipisicing elit." width="">
+                                                </a>
+                                                <div style="overflow:hidden;">
+                                                    <div class="item-title"><a href="manga-detail.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                                    </div>
+                                                    <div class="item-label">
+                                                        <span class="tren-tag"><b>Genre:</b>
+                                                            <a href="genre.html" rel="tag">
+                                                                Comedy,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Romance,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Shounen,
+                                                            </a>
+                                                        </span>
+                                                        <div class="rt-block">
+                                                            <div class="rating-b">
+                                                                <div class="rtp">
+                                                                    <div class="rtb">
+                                                                        <style>
+                                                                            .rtb span[href$="manga-detail.html"]:after {
+                                                                                width: 9.99% !important
+                                                                            }
+                                                                        </style>
+                                                                        <span href="manga-detail.html"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <span class="ratenya">9.99
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="clear: both;"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab3" style="display: none;">
+                        <div class="sidebar.popular section" id="pop3" name="pop3">
+                            <div class="widget PopularPosts" data-version="2" id="PopularPosts3">
+                                <h3 class="title">
+                                    Popular Post All time
+                                </h3>
+                                <div class="widget-content popular-posts">
+                                    <ul>
+                                        <li>
+                                            <div class="item-content">
+                                                <a href="manga-detail.html">
+                                                    <img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." class="post-thumbnail" height="" src="assets/img/cover/manga-o1.jpg" title="Lorem ipsum dolor sit amet consectetur adipisicing elit." width="">
+                                                </a>
+                                                <div style="overflow:hidden;">
+                                                    <div class="item-title"><a href="manga-detail.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                                    </div>
+                                                    <div class="item-label">
+                                                        <span class="tren-tag"><b>Genre:</b>
+                                                            <a href="genre.html" rel="tag">
+                                                                Comedy,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Romance,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Shounen,
+                                                            </a>
+                                                        </span>
+                                                        <div class="rt-block">
+                                                            <div class="rating-b">
+                                                                <div class="rtp">
+                                                                    <div class="rtb">
+                                                                        <style>
+                                                                            .rtb span[href$="manga-detail.html"]:after {
+                                                                                width: 9.99% !important
+                                                                            }
+                                                                        </style>
+                                                                        <span href="manga-detail.html"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <span class="ratenya">9.99
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="clear: both;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="item-content">
+                                                <a href="manga-detail.html">
+                                                    <img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." class="post-thumbnail" height="" src="assets/img/cover/manga-o1.jpg" title="Lorem ipsum dolor sit amet consectetur adipisicing elit." width="">
+                                                </a>
+                                                <div style="overflow:hidden;">
+                                                    <div class="item-title"><a href="manga-detail.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                                    </div>
+                                                    <div class="item-label">
+                                                        <span class="tren-tag"><b>Genre:</b>
+                                                            <a href="genre.html" rel="tag">
+                                                                Comedy,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Romance,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Shounen,
+                                                            </a>
+                                                        </span>
+                                                        <div class="rt-block">
+                                                            <div class="rating-b">
+                                                                <div class="rtp">
+                                                                    <div class="rtb">
+                                                                        <style>
+                                                                            .rtb span[href$="manga-detail.html"]:after {
+                                                                                width: 9.99% !important
+                                                                            }
+                                                                        </style>
+                                                                        <span href="manga-detail.html"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <span class="ratenya">9.99
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="clear: both;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="item-content">
+                                                <a href="manga-detail.html">
+                                                    <img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." class="post-thumbnail" height="" src="assets/img/cover/manga-o1.jpg" title="Lorem ipsum dolor sit amet consectetur adipisicing elit." width="">
+                                                </a>
+                                                <div style="overflow:hidden;">
+                                                    <div class="item-title"><a href="manga-detail.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                                    </div>
+                                                    <div class="item-label">
+                                                        <span class="tren-tag"><b>Genre:</b>
+                                                            <a href="genre.html" rel="tag">
+                                                                Comedy,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Romance,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Shounen,
+                                                            </a>
+                                                        </span>
+                                                        <div class="rt-block">
+                                                            <div class="rating-b">
+                                                                <div class="rtp">
+                                                                    <div class="rtb">
+                                                                        <style>
+                                                                            .rtb span[href$="manga-detail.html"]:after {
+                                                                                width: 9.99% !important
+                                                                            }
+                                                                        </style>
+                                                                        <span href="manga-detail.html"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <span class="ratenya">9.99
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="clear: both;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="item-content">
+                                                <a href="manga-detail.html">
+                                                    <img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." class="post-thumbnail" height="" src="assets/img/cover/manga-o1.jpg" title="Lorem ipsum dolor sit amet consectetur adipisicing elit." width="">
+                                                </a>
+                                                <div style="overflow:hidden;">
+                                                    <div class="item-title"><a href="manga-detail.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                                    </div>
+                                                    <div class="item-label">
+                                                        <span class="tren-tag"><b>Genre:</b>
+                                                            <a href="genre.html" rel="tag">
+                                                                Comedy,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Romance,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Shounen,
+                                                            </a>
+                                                        </span>
+                                                        <div class="rt-block">
+                                                            <div class="rating-b">
+                                                                <div class="rtp">
+                                                                    <div class="rtb">
+                                                                        <style>
+                                                                            .rtb span[href$="manga-detail.html"]:after {
+                                                                                width: 9.99% !important
+                                                                            }
+                                                                        </style>
+                                                                        <span href="manga-detail.html"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <span class="ratenya">9.99
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="clear: both;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="item-content">
+                                                <a href="manga-detail.html">
+                                                    <img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." class="post-thumbnail" height="" src="assets/img/cover/manga-o1.jpg" title="Lorem ipsum dolor sit amet consectetur adipisicing elit." width="">
+                                                </a>
+                                                <div style="overflow:hidden;">
+                                                    <div class="item-title"><a href="manga-detail.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                                    </div>
+                                                    <div class="item-label">
+                                                        <span class="tren-tag"><b>Genre:</b>
+                                                            <a href="genre.html" rel="tag">
+                                                                Comedy,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Romance,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Shounen,
+                                                            </a>
+                                                        </span>
+                                                        <div class="rt-block">
+                                                            <div class="rating-b">
+                                                                <div class="rtp">
+                                                                    <div class="rtb">
+                                                                        <style>
+                                                                            .rtb span[href$="manga-detail.html"]:after {
+                                                                                width: 9.99% !important
+                                                                            }
+                                                                        </style>
+                                                                        <span href="manga-detail.html"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <span class="ratenya">9.99
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="clear: both;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="item-content">
+                                                <a href="manga-detail.html">
+                                                    <img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." class="post-thumbnail" height="" src="assets/img/cover/manga-o1.jpg" title="Lorem ipsum dolor sit amet consectetur adipisicing elit." width="">
+                                                </a>
+                                                <div style="overflow:hidden;">
+                                                    <div class="item-title"><a href="manga-detail.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                                    </div>
+                                                    <div class="item-label">
+                                                        <span class="tren-tag"><b>Genre:</b>
+                                                            <a href="genre.html" rel="tag">
+                                                                Comedy,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Romance,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Shounen,
+                                                            </a>
+                                                        </span>
+                                                        <div class="rt-block">
+                                                            <div class="rating-b">
+                                                                <div class="rtp">
+                                                                    <div class="rtb">
+                                                                        <style>
+                                                                            .rtb span[href$="manga-detail.html"]:after {
+                                                                                width: 9.99% !important
+                                                                            }
+                                                                        </style>
+                                                                        <span href="manga-detail.html"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <span class="ratenya">9.99
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="clear: both;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="item-content">
+                                                <a href="manga-detail.html">
+                                                    <img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." class="post-thumbnail" height="" src="assets/img/cover/manga-o1.jpg" title="Lorem ipsum dolor sit amet consectetur adipisicing elit." width="">
+                                                </a>
+                                                <div style="overflow:hidden;">
+                                                    <div class="item-title"><a href="manga-detail.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                                    </div>
+                                                    <div class="item-label">
+                                                        <span class="tren-tag"><b>Genre:</b>
+                                                            <a href="genre.html" rel="tag">
+                                                                Comedy,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Romance,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Shounen,
+                                                            </a>
+                                                        </span>
+                                                        <div class="rt-block">
+                                                            <div class="rating-b">
+                                                                <div class="rtp">
+                                                                    <div class="rtb">
+                                                                        <style>
+                                                                            .rtb span[href$="manga-detail.html"]:after {
+                                                                                width: 9.99% !important
+                                                                            }
+                                                                        </style>
+                                                                        <span href="manga-detail.html"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <span class="ratenya">9.99
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="clear: both;"></div>
+                                        </li>
+                                        <li>
+                                            <div class="item-content">
+                                                <a href="manga-detail.html">
+                                                    <img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." class="post-thumbnail" height="" src="assets/img/cover/manga-o1.jpg" title="Lorem ipsum dolor sit amet consectetur adipisicing elit." width="">
+                                                </a>
+                                                <div style="overflow:hidden;">
+                                                    <div class="item-title"><a href="manga-detail.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                                    </div>
+                                                    <div class="item-label">
+                                                        <span class="tren-tag"><b>Genre:</b>
+                                                            <a href="genre.html" rel="tag">
+                                                                Comedy,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Romance,
+                                                            </a>
+                                                            <a href="genre.html" rel="tag">
+                                                                Shounen,
+                                                            </a>
+                                                        </span>
+                                                        <div class="rt-block">
+                                                            <div class="rating-b">
+                                                                <div class="rtp">
+                                                                    <div class="rtb">
+                                                                        <style>
+                                                                            .rtb span[href$="manga-detail.html"]:after {
+                                                                                width: 9.99% !important
+                                                                            }
+                                                                        </style>
+                                                                        <span href="manga-detail.html"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <span class="ratenya">9.99
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="clear: both;"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar section" id="kanan" name="Aside">
+                <div class="widget HTML" data-version="2" id="HTML5">
+                    <div class="widget-content">
+                        <div id="theHISTORY"></div>
+                    </div>
+                </div>
+                <div class="widget Label" data-version="2" id="Label2">
+                    <h3 class="title">
+                        Genre
+                    </h3>
+                    <div class="widget-content cloud-label-widget-content">
+                        <span class="label-size label-size-4"><a class="label-name" href="/Action">Action</a></span>
+                        <span class="label-size label-size-3"><a class="label-name" href="/Adventure">Adventure</a></span>
+                        <span class="label-size label-size-5"><a class="label-name" href="/Comedy">Comedy</a></span>
+                        <span class="label-size label-size-1"><a class="label-name" href="/Demons">Demons</a></span>
+                        <span class="label-size label-size-5"><a class="label-name" href="/Drama">Drama</a></span>
+                        <span class="label-size label-size-4"><a class="label-name" href="/Fantasy">Fantasy</a></span>
+                        <span class="label-size label-size-4"><a class="label-name" href="/Harem">Harem</a></span>
+                        <span class="label-size label-size-1"><a class="label-name" href="/Historical">Historical</a></span>
+                        <span class="label-size label-size-1"><a class="label-name" href="/Magic">Magic</a></span>
+                        <span class="label-size label-size-2"><a class="label-name" href="/Martial%20Arts">Martial Arts</a></span>
+                        <span class="label-size label-size-2"><a class="label-name" href="/Psychological">Psychological</a></span>
+                        <span class="label-size label-size-5"><a class="label-name" href="/Romance">Romance</a></span>
+                        <span class="label-size label-size-4"><a class="label-name" href="/School">School</a></span>
+                        <span class="label-size label-size-4"><a class="label-name" href="/Seinen">Seinen</a></span>
+                        <span class="label-size label-size-4"><a class="label-name" href="/Shounen">Shounen</a></span>
+                        <span class="label-size label-size-4"><a class="label-name" href="/Slice%20of%20Life">Slice of Life</a></span>
+                        <span class="label-size label-size-2"><a class="label-name" href="/Supernatural">Supernatural</a></span>
+                    </div>
+                </div>
+                <div class="widget HTML" data-version="2" id="HTML6">
+                    <h3 class="title">Series Terbaru<a class="v1" href="/search/label/Series">View More</a></h3>
+                    <div class="widget-content">
+                        <div id="OutputDiv">
+                            <ul class="customPost">
+                                <li class="postItem">
+                                    <div class="imgItem"><a href="manga-detail.html" title=" Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+                                            <img loading="lazy" class="lazy" src="assets/img/cover/manga-o1.jpg"></a>
+                                    </div>
+                                    <div class="dataContent">
+                                        <h2>
+                                            <a href="manga-detail.html" title=" Lorem ipsum dolor sit amet consectetur adipisicing elit."> Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                        </h2>
+                                        <span class="label">
+                                            <a class="label" href="/search/label/7.8">7.8</a>
+                                            <a class="label" href="/search/label/Action">Action</a>
+                                            <a class="label" href="/search/label/Adventure">Adventure</a>
+                                            <a class="label" href="/search/label/Chapter 13.2">Chapter 13.2</a>
+                                            <a class="label" href="/search/label/Drama">Drama</a>
+                                            <a class="label" href="/search/label/Hot">Hot</a>
+                                            <a class="label" href="/search/label/Manga">Manga</a>
+                                            <a class="label" href="/search/label/Ongoing">Ongoing</a>
+                                            <a class="label" href="/search/label/Project">Project</a>
+                                            <a class="label" href="/search/label/Seinen">Seinen</a>
+                                            <a class="label" href="/search/label/Series">Series</a></span>
+                                        <div class="tmn"><span class="time">08 Sep, 2021</span></div>
+                                    </div>
+                                </li>
+                                <li class="postItem">
+                                    <div class="imgItem"><a href="manga-detail.html" title=" Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+                                            <img loading="lazy" class="lazy" src="assets/img/cover/manga-o1.jpg"></a>
+                                    </div>
+                                    <div class="dataContent">
+                                        <h2>
+                                            <a href="manga-detail.html" title=" Lorem ipsum dolor sit amet consectetur adipisicing elit."> Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                        </h2>
+                                        <span class="label">
+                                            <a class="label" href="/search/label/7.8">7.8</a>
+                                            <a class="label" href="/search/label/Action">Action</a>
+                                            <a class="label" href="/search/label/Adventure">Adventure</a>
+                                            <a class="label" href="/search/label/Chapter 13.2">Chapter 13.2</a>
+                                            <a class="label" href="/search/label/Drama">Drama</a>
+                                            <a class="label" href="/search/label/Hot">Hot</a>
+                                            <a class="label" href="/search/label/Manga">Manga</a>
+                                            <a class="label" href="/search/label/Ongoing">Ongoing</a>
+                                            <a class="label" href="/search/label/Project">Project</a>
+                                            <a class="label" href="/search/label/Seinen">Seinen</a>
+                                            <a class="label" href="/search/label/Series">Series</a></span>
+                                        <div class="tmn"><span class="time">08 Sep, 2021</span></div>
+                                    </div>
+                                </li>
+                                <li class="postItem">
+                                    <div class="imgItem"><a href="manga-detail.html" title=" Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+                                            <img loading="lazy" class="lazy" src="assets/img/cover/manga-o1.jpg"></a>
+                                    </div>
+                                    <div class="dataContent">
+                                        <h2>
+                                            <a href="manga-detail.html" title=" Lorem ipsum dolor sit amet consectetur adipisicing elit."> Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                        </h2>
+                                        <span class="label">
+                                            <a class="label" href="/search/label/7.8">7.8</a>
+                                            <a class="label" href="/search/label/Action">Action</a>
+                                            <a class="label" href="/search/label/Adventure">Adventure</a>
+                                            <a class="label" href="/search/label/Chapter 13.2">Chapter 13.2</a>
+                                            <a class="label" href="/search/label/Drama">Drama</a>
+                                            <a class="label" href="/search/label/Hot">Hot</a>
+                                            <a class="label" href="/search/label/Manga">Manga</a>
+                                            <a class="label" href="/search/label/Ongoing">Ongoing</a>
+                                            <a class="label" href="/search/label/Project">Project</a>
+                                            <a class="label" href="/search/label/Seinen">Seinen</a>
+                                            <a class="label" href="/search/label/Series">Series</a></span>
+                                        <div class="tmn"><span class="time">08 Sep, 2021</span></div>
+                                    </div>
+                                </li>
+                                <li class="postItem">
+                                    <div class="imgItem"><a href="manga-detail.html" title=" Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+                                            <img loading="lazy" class="lazy" src="assets/img/cover/manga-o1.jpg"></a>
+                                    </div>
+                                    <div class="dataContent">
+                                        <h2>
+                                            <a href="manga-detail.html" title=" Lorem ipsum dolor sit amet consectetur adipisicing elit."> Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                        </h2>
+                                        <span class="label">
+                                            <a class="label" href="/search/label/7.8">7.8</a>
+                                            <a class="label" href="/search/label/Action">Action</a>
+                                            <a class="label" href="/search/label/Adventure">Adventure</a>
+                                            <a class="label" href="/search/label/Chapter 13.2">Chapter 13.2</a>
+                                            <a class="label" href="/search/label/Drama">Drama</a>
+                                            <a class="label" href="/search/label/Hot">Hot</a>
+                                            <a class="label" href="/search/label/Manga">Manga</a>
+                                            <a class="label" href="/search/label/Ongoing">Ongoing</a>
+                                            <a class="label" href="/search/label/Project">Project</a>
+                                            <a class="label" href="/search/label/Seinen">Seinen</a>
+                                            <a class="label" href="/search/label/Series">Series</a></span>
+                                        <div class="tmn"><span class="time">08 Sep, 2021</span></div>
+                                    </div>
+                                </li>
+                                <li class="postItem">
+                                    <div class="imgItem"><a href="manga-detail.html" title=" Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+                                            <img loading="lazy" class="lazy" src="assets/img/cover/manga-o1.jpg"></a>
+                                    </div>
+                                    <div class="dataContent">
+                                        <h2>
+                                            <a href="manga-detail.html" title=" Lorem ipsum dolor sit amet consectetur adipisicing elit."> Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                                        </h2>
+                                        <span class="label">
+                                            <a class="label" href="/search/label/7.8">7.8</a>
+                                            <a class="label" href="/search/label/Action">Action</a>
+                                            <a class="label" href="/search/label/Adventure">Adventure</a>
+                                            <a class="label" href="/search/label/Chapter 13.2">Chapter 13.2</a>
+                                            <a class="label" href="/search/label/Drama">Drama</a>
+                                            <a class="label" href="/search/label/Hot">Hot</a>
+                                            <a class="label" href="/search/label/Manga">Manga</a>
+                                            <a class="label" href="/search/label/Ongoing">Ongoing</a>
+                                            <a class="label" href="/search/label/Project">Project</a>
+                                            <a class="label" href="/search/label/Seinen">Seinen</a>
+                                            <a class="label" href="/search/label/Series">Series</a></span>
+                                        <div class="tmn"><span class="time">08 Sep, 2021</span></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <script>
+                            function manga(json) {
+                                customPostwithLabel(json, 'OutputDiv', 5, true);
+                            }
+                        </script>
+                        <script src="/feeds/posts/default/-/Series?orderby=published&amp;alt=json-in-script&amp;callback=manga&amp;max-results=500"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        
+<div id="kaki">
+    <div class="menu-kaki">
+        <div class="section" id='Footer'>
+            <div class="widget LinkList" id="LinkList2">
+                <h3 class="title">
+                    Footer
+                </h3>
+                <div class="widget-content-bawah">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">Privacy Police</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="list-kaki">
+        <div class="kaki-az">
+            <span class="ftaz">A-Z List</span>
+            <span class="size-s">Cari Manga berdasarkan abjad A-Z</span>
+            <ul style="justify-content: center;" class="ulclear az-list">
+                <li><a href="#">A</a></li>
+                <li><a href="#">B</a></li>
+                <li><a href="#">C</a></li>
+                <li><a href="#">D</a></li>
+                <li><a href="#">E</a></li>
+                <li><a href="#">F</a></li>
+                <li><a href="#">G</a></li>
+                <li><a href="#">H</a></li>
+                <li><a href="#">I</a></li>
+                <li><a href="#">J</a></li>
+                <li><a href="#">K</a></li>
+                <li><a href="#">L</a></li>
+                <li><a href="#">M</a></li>
+                <li><a href="#">N</a></li>
+                <li><a href="#">O</a></li>
+                <li><a href="#">P</a></li>
+                <li><a href="#">Q</a></li>
+                <li><a href="#">R</a></li>
+                <li><a href="#">S</a></li>
+                <li><a href="#">T</a></li>
+                <li><a href="#">U</a></li>
+                <li><a href="#">V</a></li>
+                <li><a href="#">W</a></li>
+                <li><a href="#">X</a></li>
+                <li><a href="#">Y</a></li>
+                <li><a href="#">Z</a></li>
+            </ul>
+        </div>
+        <div class="kaki-info">
+            <div class="kaki-logo">
+                <img alt="Codetemp Manga" src="assets/img/bannermangaLightMode.png" />
+            </div>
+            <div class="infonya">
+                <span>Copyright &#169; <script>
+                        document.write(new Date().getFullYear())
+                    </script>
+                    CodetempManga. All Rights Reserved</span>
+                <p>CodetempManga adalah Tempat Baca Manga Subtitle Indonesia</p>
+                Theme Design by <a href='https://Codetemp.blogspot.com/' rel='follow' target='_blank'>Codetemp</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ignielToTop"></div>
+<script>
+    function myFunction() {
+        var e, t, n, a;
+        for (e = document.getElementById("myInput").value.toUpperCase(), t = document.getElementById("myUL").getElementsByTagName("li"), a = 0; a < t.length; a++)((n = t[a].getElementsByTagName("a")[0]).textContent || n.innerText).toUpperCase().indexOf(e) > -1 ? t[a].style.display = "" : t[a].style.display = "none"
+    }
+</script>
+<script>
+    // Jquery
+    $(() => {
+        const t = localStorage.getItem("dark");
+        $("html").toggleClass("dark", "true" === t), $("#dark").prop("checked", "true" === t).click(function() {
+            $("html").toggleClass("dark", $(this).is(":checked")), localStorage.setItem("dark", String($(this).is(":checked")))
+        })
+    });
+</script>
+<script>
+    $(document).on("click", ".filterCont .dropdown-toggle", function() {
+        $(this).parent().hasClass("open") || $(document).find(".filterCont .widget.Label").removeClass("open"), $(this).parent().toggleClass("open")
+    }), $(document).on("click", function(t) {
+        $(t.target).closest(".dropdown-toggle").length || $(document).find(".filterCont .widget.Label").removeClass("open")
+    }), jQuery(document).ready(function(t) {
+        t(".filter-box .widget-content ul").click(function(t) {
+            t.stopPropagation()
+        }), t(".filter-box .widget-content ul").each(function(e, n) {
+            var l = t(this).find("input:checked"),
+                o = l.closest(".widget.Label").find("button span");
+            0 == l.length ? o.html("All") : 1 == l.length ? o.html(l.parent().find("label").html()) : l.length > 1 && o.html(l.length + " selected")
+        }), t(".widget-content ul input").on("click", function(e) {
+            var n = t(this).parent().parent(),
+                l = n.find("input:checked"),
+                o = n.closest(".widget.Label").find("button span");
+            0 == l.length ? o.html("All") : 1 == l.length ? o.html(l.parent().find("label").html()) : l.length > 1 && o.html(l.length + " selected")
+        })
+    });
+</script>
+<script>
+    window.onclick = function(t) {
+        if (!t.target.matches(".dropbtn")) {
+            var n = document.getElementById("menu");
+            var b = document.getElementById("outer-wrapper");
+            n.classList.contains("show") && n.classList.remove("show");
+            b.classList.contains("blur-efect") && b.classList.remove("blur-efect");
+        }
+    };
+</script>
+<script type='text/javascript'>
+    //<![CDATA[
+    $(document).ready(function() {
+        $("#content").find("[id^='tab']").hide(), $("#tabs li:first").attr("id", "current"), $("#content #tab1").fadeIn(), $("#tabs a").click(function(t) {
+            t.preventDefault(), "current" != $(this).closest("li").attr("id") && ($("#content").find("[id^='tab']").hide(), $("#tabs li").attr("id", ""), $(this).parent().attr("id", "current"), $("#" + $(this).attr("name")).fadeIn())
+        })
+    });
+</script>
+
+</body>
+
+</html>
